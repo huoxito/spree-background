@@ -1,7 +1,9 @@
 require "spree/background/version"
+require "delayed_job_active_record"
+
+require "spree/background/engine"
 
 module Spree
   module Background
-    # Your code goes here...
   end
 end
